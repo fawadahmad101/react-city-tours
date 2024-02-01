@@ -16,6 +16,7 @@ export default class TourList extends Component {
     const { tours } = this.state;
     return (
       <section className="tourlist">
+      @babel/plugin-proposal-private-property-in-object
         {tours.map((tour) => {
           return (
             <Tour key={tour.id} tour={tour} removeTour={this.removeTour} />
